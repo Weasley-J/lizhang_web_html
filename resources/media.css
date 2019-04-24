@@ -1,0 +1,206 @@
+﻿@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1220px){
+	.container{ width:94%;}
+	.nav{ width:200px; position:absolute; left:-200px; top:0; z-index:10; background:#fff; height:100%}
+	.nav li{ float:none; margin:0;}
+	.nav li a{ line-height:30px; padding:20px 0; text-align:center; border-bottom:solid 1px #f2f2f2}
+	.footer-nav a.two{ width:45.3%}
+	.footer-nav a.three{ width:8.3%}
+	.footer-nav a.four{ width:44.3%}
+	.nav li a i{ display:none}
+	.nav li a.active i{ display:none}
+	.nav li a:hover i{ display:none}
+	.language{ margin-right:50px;}
+	.enlarge{ position:absolute; display:block; right:13px; top:27px; cursor:pointer; z-index:30; height:40px; width:32px;}
+	.enlarge .icon::before, .enlarge .icon::after {
+    background-color: #3c3c3c;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition-duration: 0.5s;
+    width: 27px;
+    }
+	.enlarge .icon::before {
+    top: -9px;
+    }
+	.enlarge .icon::before, .enlarge .icon::after {
+    background-color: #3c3c3c;
+    border-radius: 2px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    transition-duration: 0.5s;
+    width: 27px;
+    }
+	.enlarge .icon::after {
+    top: 9px;
+    }
+	.enlarge .icon {
+    background-color: #3c3c3c;
+    border-radius: 2px;
+    height: 4px;
+    left: 2px;
+    position: absolute;
+    top: 28px;
+    transition-duration: 0.5s;
+    width: 27px;
+    }
+	.enlargeSelect.enlarge .icon::before {
+    transform: translateY(9px) rotate(45deg);
+    }
+	.enlargeSelect.enlarge .icon::after {
+    transform: translateY(-9px) rotate(-45deg);
+    }
+	.enlargeSelect.enlarge .icon {
+    width: 0;
+    }
+	.business-list li{ width:50%;}
+	.business-list{ width:100%;}
+	.newsList ul{ margin-left:1%}
+	.newsList li{ width:36%; margin:0 0 20px 1%; padding-left:12%;}
+	.news{ height:auto; background:none}
+	.newsList ul{ height:auto}
+	.footer-nav a{ width:25%; float:left; padding-left:3.5%; text-align:left;box-sizing:border-box}
+    /*.footer-nav .one{ width:25%; float:left;margin-left:-8px;margin-right:5px}*/
+	.footer-wx{ padding:30px 0 0 0 }
+	.footer{ height:auto; padding-bottom:20px;}
+	.footer-text{ margin-left:0;}
+	.public-nav{ width:100%;}
+	.public-Inner{ width:100%;}
+	.history li{ padding-right:53%; padding-left:0}
+	.history li.two{ padding-left:53%; padding-right:0}
+	.honorList ul.one{ margin-left:-2%;}
+	.honorList ul.one li{ width:48%; margin:0 0 0 2%; height:auto; overflow:visible}
+	.honorList ul.one li img{ width:98%; height: auto; padding:1%}
+	.honorList ul.one li p{word-break:keep-all; white-space:nowrap; overflow:hidden;text-overflow:ellipsis}
+	.honorList ul.two{ margin-left:-2%;}
+	.honorList ul.two li{ width:48%; margin:0 0 0 2%; height:auto; overflow:visible}
+	.honorList ul.two li img{ width:98%; height: auto; padding:1%}
+	.honorList ul.two li p{word-break:keep-all; white-space:nowrap; overflow:hidden;text-overflow:ellipsis}
+	.aboutSur-detail img{ height:auto}
+	.aboutSur-top ul{ width:100%;}
+	.aboutSur-top li{ width:33.3%; text-align:center; margin:0; padding:0}
+	.aboutSur-top li label{ display:none}
+	.aboutSur-top li i{ margin-left:-20px;}
+	.busin-InnerList ul{ margin-left:-2%;}
+	.busin-InnerList li{ width:47.5%; margin-left:2%;}
+	.busin-InnerList li img{ width:100%; height:auto;}
+	.busin-InnerList-text p{text-overflow: -o-ellipsis-lastline;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+	.busDet-nav{ float:none; width:100%;}
+	.busDetInner-text{ padding:0; border-left:0; float:none; width:100%}
+	.contact-map img{ height:auto}
+	.contact-list ul{ margin-left:-2%}
+	.contact-list li{ width:48%; margin:0 0 0 2%}
+	.public-MagaList li{word-break:keep-all; white-space:nowrap; overflow:hidden;text-overflow:ellipsis; position:relative; padding-right:90px}
+	.public-MagaList li span{ position:absolute; right:0; top:0;}
+	.teamCont{ margin-top:0}
+	.teamCont{ width:100%;}
+	.teamCont{ padding:0}
+	.teamCont-InnerSearch{ width:100%;}
+	.teamCont-InnerSearch input[type="text"]{ width:98%; padding-left:2%;}
+	.teamCont-InnerSearch select{ width:100%;}
+	.teamCont-InnerList{ width:100%;}
+	.teamCont-InnerList-cont{ border-left:0}
+	.teamCont-InnerList-cont ul{ margin-left:-2%;}
+	.teamCont-InnerList-cont li{ width:34%; margin:0 0 0px 2%; }
+	/*.teamCont-InnerList-cont li img{ position:static; float:left;}
+	.teamCont-InnerList-contText{ float:left;}*/
+	.teamdetail{ float:none; width:100%; padding-right:0}
+	.teamdet-Inner{ margin-bottom:100px;}
+	.public-InnerList ul{ margin-left:-2%}
+	.public-InnerList li{ padding-left:0; width:48%; margin-left:2%}
+	.public-InnerListcont{padding: 0 0 0 150px;}
+	.public-top{ margin-top:5px;line-height:30px}
+	.footer .container{ width:538px; margin:0 auto}
+    .NewsList {
+      margin-bottom:30px;
+    }
+	}
+@media screen and (max-width:900px) {
+	.newsList li {width: 31%;padding-left: 17%;}
+	.footer-wx{ float:none; width:280px; margin:0 auto}
+	.footer-text{ float:none; text-align:center}
+	.teamCont-InnerList-cont li{ width:auto; float:none}
+	.teamCont-InnerList-cont{ margin:30px 0 0 0}
+	.public-InnerList li{ width:100%;}
+	.footer .container{ width:auto; margin:0 auto}
+}
+@media screen and (max-width:700px) {
+	.footer-nav a.two {
+		  width: 40.3%;
+	  }
+	  .footer-nav a.three {
+        width: 18.3%;
+      }
+	  .footer-nav a.four {
+		  width: 35.3%;
+	  }
+    .banner-cont {
+      left:10%; width:83%; margin-left:0;text-align:center
+    }
+
+	}
+@media screen and (max-width:600px) {
+	.business-list{ border-top:solid 1px #d1d1d1}
+	.header{ height:50px;}
+	.logo{ margin-top:14px;}
+	.enlarge{ top:0px;}
+  	.logo img{ width: 100px; height:25px;}
+	.language{ margin:20px 34px 0 0}
+	.business-list li{ width:100%}
+	.newsList li{ width:auto; padding-left:115px;}
+	.history li{ padding:0}
+	.history-line{ display:none;}
+	.history li i{ display:none}
+	.history li .history-text{ text-align:left}
+	.history li span{ float:left}
+	.history li.two{ padding:0}
+	.history li span em{right: auto;left: -3px;background: url(../images/index45.jpg) no-repeat center center;}
+	.honorList ul.one li{ width:100%; margin:0}
+	.aboutSur-top li h3{ font-size:24px;}
+    .aboutSur-top li i { top:31px;}
+	.busin-InnerList ul{ margin-left:0}
+	.busin-InnerList li{ width:100%; margin-left:0}
+	.contact-list ul{ margin-left:0}
+	.contact-list li{ width:100%; margin-left:0}
+	.teamCont-top{ font-size:20px;}
+	.teamCont-tab a{ width:7.69%}
+	.teamCont-tab{ height:auto}
+	.teamdetail-top-img img{ width:99px; height:123px;}
+	.teamdetail-top{ padding-left:120px;}
+	.teamdetail-top h4{ margin:0}
+	.public-InnerList li img{ width:108px; height:150px;}
+	.public-InnerListcont{ padding-left:124px;}
+	.public-InnerList li h3 a{ font-size:16px;}
+	.public-InnerList li h3 a{ padding-top:13px;}
+	.history-circle{ display:none}
+	.top{ bottom:30px; right:0}
+	.banner li{ height:300px}
+	.busDetInner-text-title span{ display:block; width:100%; margin-bottom:20px}
+	.business-list li{ height:160px;}
+	.business-list li h3 a{ padding:15px 0 5px 0}
+	.footer-nav{ line-height:27px;}
+	.contact-index{ display:none}
+	.contact-map{ display:block}
+	.contact-list li{ padding-bottom:15px;}
+	.contact-list li h3{ padding:25px 0 15px 0}
+	.footer-nav a i{ top:8px}
+	.footer-wx{ width:256px;}
+	.NewsList ul{ margin-left:0%}
+	.NewsList li{ width:95%; margin-left:0; padding:15px 0 15px 5%}
+	.NewsList li i{ top:15px}
+    .busDetInner-text-title {
+      padding-bottom:0;
+    }
+}
+@media screen and (max-width:370px) {
+    .language {
+      display:none
+    }
+}
+
+
