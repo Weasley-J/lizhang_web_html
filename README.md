@@ -2,6 +2,7 @@
 A web html of www.lizahng-layer.com
 
 web html of lizahng Build with httpd Use Note: The default directory is current DIR. 
+
 默认发布目录： /var/www/html
 默认发布文件： /var/www/html/index.html ##需自行建立
 
