@@ -8,7 +8,7 @@ web html of lizahng Build with httpd Use Note: The default directory is current 
 
 1.Download Original html files： git clone https://github.com/Weasley-J/lizhang_web_html5.git
 
-2.Unzip Files： unzip ./lizhang_web_html5/lizhang.zip -d ./lizhang_web_html5/
+# 2.Unzip Files： unzip ./lizhang_web_html5/lizhang.zip -d ./lizhang_web_html5/
 
 3.Move files to superior directory: mv -f ./lizhang_web_html5/* ./ && mv -f ./lizhang_web_html5/images/index5.jpg ./images/
 
