@@ -16,4 +16,4 @@ web html of lizahng Build with httpd Use Note: The default directory is current 
 
 OR You can use the bellow command line:
 
-cd /var/www && git clone https://github.com/Weasley-J/lizhang_web_html5.git && rm -rf ./html && mv ./lizhang_web_html5 ./html && chomd 755 ./html
+cd /var/www && git clone https://github.com/Weasley-J/lizhang_web_html5.git && rm -rf ./html && mv ./lizhang_web_html5 ./html && chmod 755 ./html
