@@ -13,3 +13,7 @@ web html of lizahng Build with httpd Use Note: The default directory is current 
 3.Move files to superior directory: mv -f ./lizhang_web_html5/* ./ && mv -f ./lizhang_web_html5/images/index5.jpg ./images/
 
 4.Back to /var/www/html && Set permission for dir html： cd /var/www/ && chmod 755 ./html
+
+OR You can use the bellow command line:
+
+cd /var/www && git clone https://github.com/Weasley-J/lizhang_web_html5.git && rm -rf ./html && mv ./lizhang_web_html5 ./html && chomd 755 ./html
