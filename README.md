@@ -1,4 +1,4 @@
-# lizhang_web_html5
+# lizhang_web_html
 A web html of www.lizahng-layer.com
 
 web html of lizahng Build with httpd Use Note: The default directory is current DIR. 
@@ -6,7 +6,7 @@ web html of lizahng Build with httpd Use Note: The default directory is current 
 默认发布目录： /var/www/html
 默认发布文件： /var/www/html/index.html ##需自行建立
 
-1.Download Original html files： git clone https://github.com/Weasley-J/lizhang_web_html5.git
+1.Download Original html files： git clone https://github.com/Weasley-J/lizhang_web_html.git
 
 2.Unzip Files： unzip ./lizhang_web_html5/lizhang.zip -d ./lizhang_web_html5/
 
@@ -16,4 +16,4 @@ web html of lizahng Build with httpd Use Note: The default directory is current 
 
 OR You can use the bellow command line:
 
-cd /var/www && git clone https://github.com/Weasley-J/lizhang_web_html5.git && rm -rf ./html && mv ./lizhang_web_html5 ./html && chmod 755 ./html && clear && ls
+cd /var/www && git clone https://github.com/Weasley-J/lizhang_web_html.git && rm -rf ./html && mv ./lizhang_web_html5 ./html && chmod 755 ./html && clear && ls
